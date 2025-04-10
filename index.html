@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parecer Individual de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Gerador de Parecer Individual</h2>
+
+    <textarea id="alunosLista" placeholder="Cole a lista de alunos aqui..."></textarea>
+    <button onclick="processarAlunos()">Gerar Formulário</button>
+
+    <div id="formulario"></div>
+    <button onclick="gerarParecer()" id="btnParecer" style="display:none;">Gerar Parecer Final</button>
+
+    <h3>Pareceres Individuais:</h3>
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
